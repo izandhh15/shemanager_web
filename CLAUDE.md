@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-VirtuaFC is a football manager simulation game built with Laravel 12. Players manage Spanish football teams (La Liga/Segunda División) through seasons, handling squad selection, transfers, and competitions including the Copa del Rey and European competitions (Champions League, Europa League, Conference League).
+SheManager is a women's football manager game built with Laravel 12, developed by Izan Delgado (@izandhh), based on the Virtua FC open source codebase by Pablo Román. Players manage women's football teams (Liga F/Primera Federación Iberdrola) through seasons, handling squad selection, transfers, and competitions including the Copa de la Reina and European competitions (UWCL, Women's Europa Cup).
 
 The frontend uses Blade templates with Tailwind CSS and Alpine.js. The app defaults to Spanish (`APP_LOCALE=es`).
 

@@ -1,23 +1,20 @@
-# Netlify configuration for VirtuaFC Fútbol Femenino landing page
+# Netlify configuration for SheManager — landing page
+# Proyecto de Izan Delgado (@izandhh), basado en Virtua FC de Pablo Román
 # The Laravel app runs separately (Laravel Cloud / Railway / etc.)
 # Netlify only serves the static landing page.
+#
+# SETUP: In Netlify dashboard → Site configuration → Build & deploy:
+#   Base directory:     landing/public
+#   Build command:      (leave empty)
+#   Publish directory:  landing/public
+#   OR set base to "landing/public" and publish to "."
 
 [build]
-  # No build command needed — landing is pure static HTML
-  command   = "echo 'Static site — no build required'"
-  publish   = "landing/public"
-  functions = "landing/functions"
+  base      = "landing/public"
+  command   = ""
+  publish   = "."
 
-[build.environment]
-  NODE_VERSION = "20"
-
-# SPA-style redirects: serve index.html for unknown paths
-[[redirects]]
-  from   = "/*"
-  to     = "/index.html"
-  status = 200
-
-# English variant
+# Spanish → serve index.html (default)
 [[redirects]]
   from   = "/en"
   to     = "/index-en.html"

@@ -1,4 +1,6 @@
-# VirtuaFC
+# SheManager
+
+Manager de fútbol femenino por **Izan Delgado** ([@izandhh](https://x.com/izandhh)), basado en [Virtua FC](https://github.com/pabloroman/virtua-fc) de Pablo Román.
 
 <p align="center">
   <b>If you enjoy the game, consider supporting the project:</b><br><br>

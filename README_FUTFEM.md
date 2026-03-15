@@ -1,6 +1,6 @@
-# VirtuaFC — Fútbol Femenino 2025-26
+# SheManager — Fútbol Femenino 2025-26
 
-Versión del juego VirtuaFC adaptada para el fútbol femenino. Compatible con el codebase Laravel original, añade soporte completo para la temporada 2025-26 femenina.
+Manager de fútbol femenino desarrollado por **Izan Delgado** ([@izandhh](https://x.com/izandhh)), basado en el código open source de [Virtua FC](https://github.com/pabloroman/virtua-fc) de Pablo Román. Compatible con el codebase Laravel original, añade soporte completo para la temporada 2025-26 femenina.
 
 ---
 
